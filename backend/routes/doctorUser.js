@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const multer = require("multer");
-const bcrypt = require("bcryptjs");
+const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const checkDocAuth = require("../middleware/check-docAuth");
 
